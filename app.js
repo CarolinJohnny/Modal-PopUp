@@ -14,7 +14,7 @@ function windowOnClick(event) {
 
 results.addEventListener("click", toggleModal);
 againButton.addEventListener("click", toggleModal);
-window.addEventListener("click",windowOnClick);
+window.addEventListener("click", windowOnClick);
 
 //
 var totalStars = document.querySelector(".stars").innerHTML;

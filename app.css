@@ -1,25 +1,23 @@
 .modal {
-  position:fixed;
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: #7ecdbb;
   opacity: 0;
   visibility: hidden;
-  transform:scale(1.1);
-
-    }
+  transform: scale(1.1);
+}
 
 .content {
   background-color: #fff;
-  position:absolute;
+  position: absolute;
   top: 30%;
-  left:29%;
+  left: 29%;
   width: 40%;
   height: 40%;
   padding: 1cm;
   text-align: center;
   border-radius: 2em;
-
 }
 
 .again-button {
@@ -31,6 +29,7 @@
   font-size: 12px;
   border: grey 2px solid;
 }
+
 .again-button:hover {
   background-color: #e096b8
 }
@@ -38,5 +37,4 @@
 .show-modal {
   visibility: visible;
   opacity: 1;
-
 }
